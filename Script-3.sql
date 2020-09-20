@@ -16,7 +16,7 @@ create table publishing.Orders
 (
     order_id varchar(50) not NULL,
     office_name varchar(50) not NULL,
-    customer_id varchar(50) not NULL,
+    customer_id integer not NULL,
     public_id integer not NULL
 );
 
